@@ -37,7 +37,7 @@ export default ({
               <tr>
                 {' '}
                 <td
-                  style={{ paddingRight: '16px', verticalAlign: 'top' }}
+                  style={{ paddingRight: '14px', verticalAlign: 'top' }}
                   valign="top"
                 >
                   {' '}
@@ -69,7 +69,7 @@ export default ({
                           <span
                             className="ws-tpl-title"
                             style={{
-                              fontSize: '16px',
+                              fontSize: '14px',
                               letterSpacing: '0px',
                               fontFamily: 'Arial',
                               textTransform: 'initial',
@@ -78,12 +78,12 @@ export default ({
                             data-acs="title"
                           >
                             {' '}
-                            {designation},{' '}
+                            {designation} |
                           </span>{' '}
                           <span
                             className="ws-tpl-company"
                             style={{
-                              fontSize: '16px',
+                              fontSize: '14px',
                               letterSpacing: '0px',
                               fontFamily: 'Arial',
                               textTransform: 'initial',
@@ -102,7 +102,7 @@ export default ({
                         <td
                           style={{
                             lineHeight: 0,
-                            paddingTop: '16px',
+                            paddingTop: '14px',
                             paddingBottom: 0
                           }}
                         >
@@ -137,8 +137,8 @@ export default ({
                                             cellPadding={0}
                                             cellSpacing={0}
                                             style={{
-                                              lineHeight: '16px',
-                                              fontSize: '16px',
+                                              lineHeight: '14px',
+                                              fontSize: '14px',
                                               fontFamily: 'Arial'
                                             }}
                                           >
@@ -151,7 +151,7 @@ export default ({
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
                                                     fontWeight: 'bold',
-                                                    fontSize: '16px',
+                                                    fontSize: '14px',
                                                     color: '#45668E'
                                                   }}
                                                 >
@@ -182,7 +182,7 @@ export default ({
                                                   style={{
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
-                                                    fontSize: '16px'
+                                                    fontSize: '14px'
                                                   }}
                                                 >
                                                   {' '}
@@ -192,7 +192,7 @@ export default ({
                                                     style={{
                                                       colorScheme: 'light only',
                                                       textDecoration: 'none',
-                                                      fontSize: '16px',
+                                                      fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
                                                   >
@@ -206,7 +206,7 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '16px'
+                                                        fontSize: '14px'
                                                       }}
                                                     >
                                                       {' '}
@@ -230,8 +230,8 @@ export default ({
                                             cellPadding={0}
                                             cellSpacing={0}
                                             style={{
-                                              lineHeight: '16px',
-                                              fontSize: '16px',
+                                              lineHeight: '14px',
+                                              fontSize: '14px',
                                               fontFamily: 'Arial'
                                             }}
                                           >
@@ -248,7 +248,7 @@ export default ({
                                                       colorScheme: 'light only',
                                                       fontFamily: 'Arial',
                                                       fontWeight: 'bold',
-                                                      fontSize: '16px',
+                                                      fontSize: '14px',
                                                       color: '#000000'
                                                     }}
                                                   >
@@ -260,7 +260,7 @@ export default ({
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
                                                     fontWeight: 'bold',
-                                                    fontSize: '16px',
+                                                    fontSize: '14px',
                                                     color: '#45668E'
                                                   }}
                                                 >
@@ -291,7 +291,7 @@ export default ({
                                                   style={{
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
-                                                    fontSize: '16px'
+                                                    fontSize: '14px'
                                                   }}
                                                 >
                                                   {' '}
@@ -301,7 +301,7 @@ export default ({
                                                     style={{
                                                       colorScheme: 'light only',
                                                       textDecoration: 'none',
-                                                      fontSize: '16px',
+                                                      fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
                                                   >
@@ -315,7 +315,7 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '16px'
+                                                        fontSize: '14px'
                                                       }}
                                                     >
                                                       {' '}
@@ -353,8 +353,8 @@ export default ({
                                             cellPadding={0}
                                             cellSpacing={0}
                                             style={{
-                                              lineHeight: '16px',
-                                              fontSize: '16px',
+                                              lineHeight: '14px',
+                                              fontSize: '14px',
                                               fontFamily: 'Arial'
                                             }}
                                           >
@@ -367,7 +367,7 @@ export default ({
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
                                                     fontWeight: 'bold',
-                                                    fontSize: '16px',
+                                                    fontSize: '14px',
                                                     color: '#45668E'
                                                   }}
                                                 >
@@ -398,7 +398,7 @@ export default ({
                                                   style={{
                                                     colorScheme: 'light only',
                                                     fontFamily: 'Arial',
-                                                    fontSize: '16px'
+                                                    fontSize: '14px'
                                                   }}
                                                 >
                                                   {' '}
@@ -408,7 +408,7 @@ export default ({
                                                     style={{
                                                       colorScheme: 'light only',
                                                       textDecoration: 'none',
-                                                      fontSize: '16px',
+                                                      fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
                                                   >
@@ -422,7 +422,7 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '16px'
+                                                        fontSize: '14px'
                                                       }}
                                                     >
                                                       {' '}
@@ -478,7 +478,7 @@ export default ({
                                             href="https://www.linkedin.com/in/ragularuban/"
                                             target="_blank"
                                             style={{
-                                              fontSize: '16px',
+                                              fontSize: '14px',
                                               color: '#444',
                                               textDecoration: 'none'
                                             }}
@@ -498,67 +498,50 @@ export default ({
                                             />{' '}
                                           </a>{' '}
                                         </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                                </td>{' '}
-                                <td>
-                                  {enableDiscovery && (
-                                    <table
-                                      cellPadding={0}
-                                      cellSpacing={0}
-                                      border={0}
-                                    >
-                                      <tbody>
-                                        <tr>
-                                          <td style={{ lineHeight: 0 }}>
-                                            <a
-                                              href="https://pasteboard.co/KhN4bsM.jpg"
-                                              target="blank"
-                                              style={{
-                                                textDecoration: 'none',
-                                                lineHeight: '41px',
-                                                display: 'block',
-                                                fontSize: 0
-                                              }}
-                                            >
-                                              <img
-                                                src="https://lh3.google.com/u/0/d/1qrLNZCNA5bkCO9LuXmvEb2OmBIzHk8b5=w2240-h1828-iv1"
-                                                align="right"
-                                                height={131}
-                                                width={185}
-                                                style={{
-                                                  width: '185px',
-                                                  verticalAlign: 'initial',
-                                                  display: 'block',
-                                                  height: '131px'
-                                                }}
-                                              />{' '}
-                                            </a>
+                                        <td>
+                                          {enableDiscovery && (
                                             <table
                                               cellPadding={0}
                                               cellSpacing={0}
                                               border={0}
-                                              width="100%"
                                             >
                                               <tbody>
                                                 <tr>
-                                                  <td
-                                                    style={{
-                                                      lineHeight: 0,
-                                                      height: '16px',
-                                                      maxWidth: '600px'
-                                                    }}
-                                                  />
+                                                  <td style={{ lineHeight: 0 }}>
+                                                    <a
+                                                      href="https://pasteboard.co/KhN4bsM.jpg"
+                                                      target="blank"
+                                                      style={{
+                                                        textDecoration: 'none',
+                                                        lineHeight: '41px',
+                                                        display: 'block',
+                                                        fontSize: 0
+                                                      }}
+                                                    >
+                                                      <img
+                                                        src="https://lh3.google.com/u/0/d/1LvcxvGttUMtgULipXrHy80eAwc30lI6z=w3360-h1942-iv2"
+                                                        align="right"
+                                                        height={46}
+                                                        width={185}
+                                                        style={{
+                                                          width: '185px',
+                                                          verticalAlign:
+                                                            'initial',
+                                                          display: 'block',
+                                                          height: '46px'
+                                                        }}
+                                                      />{' '}
+                                                    </a>
+                                                  </td>
                                                 </tr>
                                               </tbody>
                                             </table>
-                                          </td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
-                                  )}
-                                </td>
+                                          )}
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>{' '}
                               </tr>{' '}
                             </tbody>
                           </table>{' '}
@@ -611,14 +594,14 @@ export default ({
                           <img
                             src="https://lh3.google.com/u/0/d/1tSAkl1V4M_mbUjANQD5QKv4QC2hq9_d7=w2240-h1828-iv1"
                             align="right"
-                            height={100}
+                            height={84}
                             width={100}
                             style={{
                               width: '100px',
                               verticalAlign: 'initial',
 
                               display: 'block',
-                              height: '100px'
+                              height: '84px'
                             }}
                           />{' '}
                         </td>{' '}
@@ -632,7 +615,7 @@ export default ({
           <table cellPadding={0} cellSpacing={0} border={0} width="100%">
             <tbody>
               <tr>
-                <td style={{ lineHeight: 0, height: '16px' }} />
+                <td style={{ lineHeight: 0, height: '14px' }} />
               </tr>
             </tbody>
           </table>
