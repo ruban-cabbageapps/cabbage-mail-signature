@@ -9,7 +9,9 @@ const App = () => {
   const [mobile, setMobile] = useState('+94 777 745862');
   const [email, setEmail] = useState('ruban@cabbageapps.com');
 
-  const [profilePicture, setProfilePicture] = useState('Ruban Nanthagopal');
+  const [profilePicture, setProfilePicture] = useState(
+    'https://d36urhup7zbd7q.cloudfront.net/fc4402cf-1a69-458b-b99a-69774385f9b9/EmployeeProfilepictures.crop_788x788_58,0.preview.format_png.resize_200x.png#logo'
+  );
   const [enableDiscovery, setEnableDisconvery] = useState(true);
   return (
     <div>

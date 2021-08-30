@@ -1,5 +1,20 @@
 import React from 'react';
 
+const icons = {
+  mobile:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/mobile-icon.png?alt=media&token=d0e494cf-ca03-40ca-a68f-08931404d2de',
+  website:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/website-icon.png?alt=media&token=f6c3518c-4f56-4004-b697-ff4ae3b1c717',
+  email:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/mail-icon.png?alt=media&token=fb9e1e93-5a0e-4c93-a791-ae8a882671be',
+  linkedIn:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/linked-in-icon.png?alt=media&token=40c1a521-ffaa-48fa-89f7-083414ecd858',
+  bookCall:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/discovery-call.png?alt=media&token=658c87aa-d894-4cdb-85a7-c5c4adbf6eb4',
+  caLogo:
+    'https://firebasestorage.googleapis.com/v0/b/cabbage-mail-signature.appspot.com/o/ca-logo.png?alt=media&token=51dcca59-2e21-45ad-9ac2-85b8c559f129'
+};
+
 export default ({
   name,
   email,
@@ -157,14 +172,14 @@ export default ({
                                                 >
                                                   {' '}
                                                   <img
-                                                    src="https://lh3.google.com/u/0/d/1qlbywT9QmPyCHet5iteKUCQF4vqlFFJF=w2240-h1828-iv1"
+                                                    src={icons.mobile}
                                                     width={40}
-                                                    height={29}
+                                                    height={30}
                                                     style={{
                                                       verticalAlign: '-2px',
                                                       lineHeight: '1.2',
                                                       width: 40,
-                                                      height: 29
+                                                      height: 30
                                                     }}
                                                   />{' '}
                                                 </td>{' '}
@@ -266,14 +281,14 @@ export default ({
                                                 >
                                                   {' '}
                                                   <img
-                                                    src="https://lh3.google.com/u/0/d/1F6HC0pLkCr4KWYUCYEPOJflAP7XoO4kp=w2240-h1828-iv1"
+                                                    src={icons.website}
                                                     width={40}
-                                                    height={29}
+                                                    height={30}
                                                     style={{
                                                       verticalAlign: '-2px',
                                                       lineHeight: '1.2',
                                                       width: 40,
-                                                      height: 29
+                                                      height: 30
                                                     }}
                                                   />{' '}
                                                 </td>{' '}
@@ -373,14 +388,14 @@ export default ({
                                                 >
                                                   {' '}
                                                   <img
-                                                    src="https://lh3.google.com/u/0/d/1xztcxHzYLuKmtSmC8Za_OezwBEN21tgF=w2240-h1828-iv1"
+                                                    src={icons.email}
                                                     width={40}
-                                                    height={29}
+                                                    height={30}
                                                     style={{
                                                       verticalAlign: '-2px',
                                                       lineHeight: '1.2',
                                                       width: 40,
-                                                      height: 29
+                                                      height: 30
                                                     }}
                                                   />{' '}
                                                 </td>{' '}
@@ -486,13 +501,13 @@ export default ({
                                             {' '}
                                             <img
                                               width={40}
-                                              height={29}
-                                              src="https://lh3.google.com/u/0/d/1_8vwN-vizVUY_dQs0f_mD_RxU5GjdnBa=w2240-h1828-iv1"
+                                              height={30}
+                                              src={icons.linkedIn}
                                               style={{
                                                 float: 'left',
                                                 border: 'none',
                                                 width: 40,
-                                                height: 29
+                                                height: 30
                                               }}
                                               border={0}
                                             />{' '}
@@ -519,7 +534,7 @@ export default ({
                                                       }}
                                                     >
                                                       <img
-                                                        src="https://lh3.google.com/u/0/d/1LvcxvGttUMtgULipXrHy80eAwc30lI6z=w3360-h1942-iv2"
+                                                        src={icons.bookCall}
                                                         align="right"
                                                         height={46}
                                                         width={185}
@@ -568,7 +583,7 @@ export default ({
                         <td>
                           {' '}
                           <img
-                            src="https://d36urhup7zbd7q.cloudfront.net/fc4402cf-1a69-458b-b99a-69774385f9b9/EmployeeProfilepictures.crop_788x788_58,0.preview.format_png.resize_200x.png#logo"
+                            src={profilePicture}
                             align="right"
                             height={100}
                             width={100}
@@ -592,16 +607,16 @@ export default ({
                         <td>
                           {' '}
                           <img
-                            src="https://lh3.google.com/u/0/d/1tSAkl1V4M_mbUjANQD5QKv4QC2hq9_d7=w2240-h1828-iv1"
+                            src={icons.caLogo}
                             align="right"
-                            height={84}
+                            height={100}
                             width={100}
                             style={{
                               width: '100px',
                               verticalAlign: 'initial',
 
                               display: 'block',
-                              height: '84px'
+                              height: '100px'
                             }}
                           />{' '}
                         </td>{' '}
