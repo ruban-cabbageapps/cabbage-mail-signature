@@ -108,7 +108,7 @@ export default ({
                             data-acs="company"
                           >
                             {' '}
-                            Cabbage Apps{' '}
+                            CabbageApps{' '}
                           </span>{' '}
                         </td>{' '}
                       </tr>{' '}
