@@ -21,7 +21,8 @@ export default ({
   mobile,
   profilePicture,
   designation,
-  enableDiscovery
+  discoveryCallLink,
+  linkedInLink
 }) => (
   <table
     style={{
@@ -206,7 +207,8 @@ export default ({
                                                     target="_blank"
                                                     style={{
                                                       colorScheme: 'light only',
-                                                      textDecoration: 'none',
+                                                      textDecoration:
+                                                        'none !important',
                                                       fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
@@ -221,7 +223,9 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '14px'
+                                                        fontSize: '14px',
+                                                        textDecoration:
+                                                          'none !important'
                                                       }}
                                                     >
                                                       {' '}
@@ -315,7 +319,8 @@ export default ({
                                                     target="_blank"
                                                     style={{
                                                       colorScheme: 'light only',
-                                                      textDecoration: 'none',
+                                                      textDecoration:
+                                                        'none !important',
                                                       fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
@@ -330,7 +335,9 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '14px'
+                                                        fontSize: '14px',
+                                                        textDecoration:
+                                                          'none !important'
                                                       }}
                                                     >
                                                       {' '}
@@ -422,7 +429,8 @@ export default ({
                                                     target="_blank"
                                                     style={{
                                                       colorScheme: 'light only',
-                                                      textDecoration: 'none',
+                                                      textDecoration:
+                                                        'none !important',
                                                       fontSize: '14px',
                                                       fontFamily: 'Arial'
                                                     }}
@@ -437,7 +445,9 @@ export default ({
                                                         color: '#000000',
                                                         fontFamily: 'Arial',
                                                         whiteSpace: 'nowrap',
-                                                        fontSize: '14px'
+                                                        fontSize: '14px',
+                                                        textDecoration:
+                                                          'none !important'
                                                       }}
                                                     >
                                                       {' '}
@@ -490,12 +500,15 @@ export default ({
                                         >
                                           {' '}
                                           <a
-                                            href="https://www.linkedin.com/in/ragularuban/"
+                                            href={
+                                              linkedInLink ||
+                                              'https://lk.linkedin.com/company/cabbageapps'
+                                            }
                                             target="_blank"
                                             style={{
                                               fontSize: '14px',
                                               color: '#444',
-                                              textDecoration: 'none'
+                                              textDecoration: 'none !important'
                                             }}
                                           >
                                             {' '}
@@ -514,7 +527,7 @@ export default ({
                                           </a>{' '}
                                         </td>
                                         <td>
-                                          {enableDiscovery && (
+                                          {discoveryCallLink && (
                                             <table
                                               cellPadding={0}
                                               cellSpacing={0}
@@ -524,10 +537,11 @@ export default ({
                                                 <tr>
                                                   <td style={{ lineHeight: 0 }}>
                                                     <a
-                                                      href="https://pasteboard.co/KhN4bsM.jpg"
+                                                      href={discoveryCallLink}
                                                       target="blank"
                                                       style={{
-                                                        textDecoration: 'none',
+                                                        textDecoration:
+                                                          'none !important',
                                                         lineHeight: '41px',
                                                         display: 'block',
                                                         fontSize: 0

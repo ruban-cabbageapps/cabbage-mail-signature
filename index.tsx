@@ -12,7 +12,10 @@ const App = () => {
   const [profilePicture, setProfilePicture] = useState(
     'https://d36urhup7zbd7q.cloudfront.net/fc4402cf-1a69-458b-b99a-69774385f9b9/EmployeeProfilepictures.crop_788x788_58,0.preview.format_png.resize_200x.png#logo'
   );
-  const [enableDiscovery, setEnableDisconvery] = useState(true);
+  const [discoveryCallLink, setDiscoveryCallLink] = useState('');
+  const [linkedInLink, setLInkedInLInk] = useState(
+    'https://lk.linkedin.com/company/cabbageapps'
+  );
   return (
     <div>
       <input
@@ -40,12 +43,16 @@ const App = () => {
       />{' '}
       <br /> <br />
       <input
-        type="checkbox"
-        placeholder="Meeting"
-        checked={enableDiscovery}
-        onChange={e => setEnableDisconvery(e.target.checked)}
+        placeholder="Discover Call Link | Leave it blank"
+        value={discoveryCallLink}
+        onChange={e => setDiscoveryCallLink(e.target.value)}
       />{' '}
-      Enable Book a Meeting
+      <br /> <br />
+      <input
+        placeholder="LinkedIn Link"
+        value={linkedInLink}
+        onChange={e => setLInkedInLInk(e.target.value)}
+      />{' '}
       <br /> <br />
       <hr />
       <br />
@@ -57,7 +64,8 @@ const App = () => {
         mobile={mobile}
         designation={designation}
         profilePicture={profilePicture}
-        enableDiscovery={enableDiscovery}
+        discoveryCallLink={discoveryCallLink}
+        linkedInLink={linkedInLink}
       />
     </div>
   );
